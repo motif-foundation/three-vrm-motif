@@ -7,8 +7,6 @@ export interface VRMFirstPerson {
   lookAtTypeName: 'Bone' | 'BlendShape';
   lookAtHorizontalInner: VRMFirstPersonDegreeMap;
   lookAtHorizontalOuter: VRMFirstPersonDegreeMap;
-  lookAtVerticalDown: VRMFirstPersonDegreeMap;
-  lookAtVerticalUp: VRMFirstPersonDegreeMap;
 }
 
 export interface VRMFirstPersonMeshAnnotation {
